@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="883.0" prefWidth="1518.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.jobvacancy.controller.RecrutmentsController">
+    <stylesheets>
+        <URL value="@/lk/ijse/jobvacancy/style/recrutments.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="629.0" layoutY="77.0" prefHeight="42.0" prefWidth="418.0" text=" Job Recrutment Details" textFill="#2945c4">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Label>
+      <TableView layoutX="537.0" layoutY="179.0" prefHeight="428.0" prefWidth="602.0">
+        <columns>
+          <TableColumn prefWidth="105.5999755859375" text="CandidateName" />
+          <TableColumn prefWidth="123.99993896484375" text="Job Categoery" />
+            <TableColumn prefWidth="103.199951171875" text="Interview results" />
+            <TableColumn prefWidth="137.5999755859375" text="company name" />
+            <TableColumn prefWidth="137.59991455078125" text="Start Salary" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="554.0" prefWidth="706.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.jobvacancy.controller.DashBoardController">
+   <children>
+      <ImageView fx:id="imghome" fitHeight="928.0" fitWidth="1512.0" layoutY="4.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assent/service-communication-Business-Meeting-Skills.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton opacity="0.4" prefHeight="160.0" prefWidth="511.0" style="-fx-background-color: #000000;" text="Office Admin/Secretary/Receptionist" textFill="#dddddd">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="510.0" opacity="0.4" prefHeight="160.0" prefWidth="435.0" style="-fx-background-color: #b71c1c;" text="Accounting/Auditing/Finance" textFill="#e5e6eb">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="945.0" opacity="0.4" prefHeight="160.0" prefWidth="566.0" style="-fx-background-color: #01579b;" text="IT/Data Entry/Graphics" textFill="#dddddd">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="1008.0" layoutY="160.0" opacity="0.53" prefHeight="170.0" prefWidth="503.0" style="-fx-background-color: #006064;" text="Security" textFill="#dddddd">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="1.0" layoutY="160.0" opacity="0.5" prefHeight="170.0" prefWidth="472.0" style="-fx-background-color: #ef6c00#ef6c00;" text="Hotels &amp; Villas/Tourism" textFill="#dddddd">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="474.0" layoutY="160.0" opacity="0.4" prefHeight="170.0" prefWidth="534.0" style="-fx-background-color: #4527a0;" text="Drivers/Helpers/Operators" textFill="#dddddd">
+         <font>
+            <Font name="Arial Bold" size="27.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

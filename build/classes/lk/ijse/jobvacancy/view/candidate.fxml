@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="990.0" prefWidth="1646.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.jobvacancy.controller.CandidateController">
+    <stylesheets>
+        <URL value="@/lk/ijse/jobvacancy/style/candidate.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="609.0" layoutY="49.0" prefHeight="51.0" prefWidth="298.0" text="Candidate details" textFill="#636984">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtFname" focusColor="#013be8" labelFloat="true" layoutX="93.0" layoutY="263.0" prefHeight="31.0" prefWidth="337.0" text="F_Name:" />
+      <JFXTextField fx:id="txtlName" labelFloat="true" layoutX="560.0" layoutY="263.0" prefHeight="31.0" prefWidth="337.0" text="L_Name:" />
+      <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="93.0" layoutY="347.0" prefHeight="31.0" prefWidth="337.0" text="Address:" />
+      <JFXComboBox layoutX="84.0" layoutY="138.0" prefHeight="31.0" prefWidth="337.0" promptText="Job Category:" style="-fx-background-color: white;" />
+      <JFXTextField fx:id="txtEmail" labelFloat="true" layoutX="93.0" layoutY="441.0" prefHeight="31.0" prefWidth="337.0" text="E_mail:" />
+      <RadioButton fx:id="butMale" layoutX="656.0" layoutY="367.0" mnemonicParsing="false" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="genderGroup" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="butFemale" layoutX="758.0" layoutY="367.0" mnemonicParsing="false" text="Female" toggleGroup="$genderGroup" />
+      <Label layoutX="560.0" layoutY="367.0" prefHeight="21.0" prefWidth="75.0" text="Gender" />
+      <JFXComboBox layoutX="560.0" layoutY="138.0" prefHeight="31.0" prefWidth="337.0" promptText="Job Type:" />
+      <JFXTextField fx:id="txtTel" labelFloat="true" layoutX="560.0" layoutY="456.0" prefHeight="31.0" prefWidth="337.0" text="Contact no:" />
+      <Label layoutX="42.0" layoutY="191.0" prefHeight="51.0" prefWidth="306.0" text="Personal Info:" textFill="#1a77b8">
+         <font>
+            <Font name="Arial Bold Italic" size="27.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtDateOfBirth" layoutX="101.0" layoutY="543.0" prefHeight="31.0" prefWidth="337.0" text="Date_Of_Birth:" />
+      <JFXTextField fx:id="txtNic" labelFloat="true" layoutX="560.0" layoutY="536.0" prefHeight="31.0" prefWidth="337.0" text="NIC:" />
+      <JFXTextField layoutX="101.0" layoutY="626.0" prefHeight="31.0" prefWidth="337.0" text="School Attended:" />
+      <JFXComboBox labelFloat="true" layoutX="560.0" layoutY="626.0" prefHeight="31.0" prefWidth="337.0" promptText="Marital status:" />
+      <TableView layoutX="944.0" layoutY="154.0" prefHeight="312.0" prefWidth="618.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="F_Name" />
+          <TableColumn prefWidth="75.0" text="L_Name" />
+            <TableColumn prefWidth="75.0" text="Address" />
+            <TableColumn prefWidth="75.0" text="Gender" />
+            <TableColumn prefWidth="75.0" text="Email" />
+            <TableColumn prefWidth="75.0" text="Contact no" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="ADD" layoutX="177.0" layoutY="721.0" onMouseClicked="#clickedAdd" prefHeight="26.0" prefWidth="95.0" style="-fx-background-color: #01579b;" text="ADD" />
+      <JFXButton fx:id="Update" layoutX="376.0" layoutY="721.0" onMouseClicked="#clickedUpdate" prefHeight="26.0" prefWidth="95.0" style="-fx-background-color: #01579b;" text="UPDATE" />
+      <JFXButton fx:id="Delete" layoutX="571.0" layoutY="721.0" onMouseClicked="#clickedDele" prefHeight="26.0" prefWidth="95.0" style="-fx-background-color: #01579b;" text="DELETE" />
+      <JFXTextField fx:id="txtCID" focusColor="#013be8" labelFloat="true" layoutX="560.0" layoutY="201.0" prefHeight="31.0" prefWidth="337.0" promptText="Candidate Id" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="883.0" prefWidth="1518.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.jobvacancy.controller.PaymentsController">
+    <stylesheets>
+        <URL value="@/lk/ijse/jobvacancy/style/payments.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="607.0" layoutY="93.0" text="Payment Details" textFill="#383ab0">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="990.0" prefWidth="1646.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.jobvacancy.controller.JobvacanciesController">
+    <stylesheets>
+        <URL value="@/lk/ijse/jobvacancy/style/jobvacancies.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="209.0" layoutY="126.0" prefHeight="112.0" prefWidth="274.0" style="-fx-background-color: #1565c0;" text=" Office Admin/ Secretary/Receptionist" textFill="#343131" />
+      <Label layoutX="530.0" layoutY="126.0" prefHeight="112.0" prefWidth="262.0" style="-fx-background-color: #1565c0;" text="Accounting/Auditing/Finance" textFill="#343131" />
+      <Label layoutX="855.0" layoutY="126.0" prefHeight="112.0" prefWidth="262.0" style="-fx-background-color: #1565c0;" text="IT/Data Entry/Graphics" textFill="#343131" />
+      <Label layoutX="1196.0" layoutY="126.0" prefHeight="112.0" prefWidth="246.0" style="-fx-background-color: #1565c0;" text="Sales/Markaeting/Merchandising" textFill="#343131" />
+      <Label layoutX="455.0" layoutY="325.0" prefHeight="93.0" prefWidth="254.0" style="-fx-background-color: #1565c0;" text="Hotels &amp; Villlas/Tourism" textFill="#343131" />
+      <Label layoutX="871.0" layoutY="325.0" prefHeight="94.0" prefWidth="246.0" style="-fx-background-color: #1565c0;" text="Drivers/Helepers/Operators" textFill="#343131" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1500.0" style="-fx-background-color: white;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.jobvacancy.controller.InterviewsController">
+    <stylesheets>
+        <URL value="@/lk/ijse/jobvacancy/style/interviews.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="568.0" layoutY="90.0" prefHeight="75.0" prefWidth="321.0" text="Interview schdule" textFill="#3137b5">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font>
+      </Label>
+      <TableView layoutX="406.0" layoutY="165.0" prefHeight="324.0" prefWidth="566.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Date" />
+          <TableColumn prefWidth="75.0" text="Time" />
+            <TableColumn prefWidth="75.0" text="Venue" />
+            <TableColumn prefWidth="113.60003662109375" text="Candidate Name" />
+            <TableColumn prefWidth="83.2000732421875" text="Job Category" />
+            <TableColumn prefWidth="136.800048828125" text="Interview Panel" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
