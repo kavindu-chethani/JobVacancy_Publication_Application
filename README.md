@@ -1,0 +1,2 @@
+# JobVacancy_Publication_Application
+standalone_application
