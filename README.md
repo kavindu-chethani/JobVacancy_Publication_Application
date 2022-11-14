@@ -1,2 +1,2 @@
 # JobVacancy_Publication_Application
-standalone_application
+standalone_application using Java and Mysql
